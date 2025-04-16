@@ -43,6 +43,8 @@ Here’s an example of the regex used to handle result values:
 result_pattern = re.compile(
     r"^(?:<0\.5|<0\.6|<=50|<100|\d+(?:\.\d+)?)$"
 )
+```
+
 This pattern matches:
 
 Non-numeric results like <0.5, <0.6, <=50.
@@ -105,8 +107,7 @@ Most recent pre-index result for each test.
 
 All post-index results, grouped by date.
 
-## Example Output
-
+Example Output
 Here’s the actual terminal output showing how the script works:
 
-![Terminal Output](assets/terminal_output.png)
+![Terminal Output](https://raw.githubusercontent.com/PedTavv/Python-PDF-Lab-Value-Parser/master/assets/terminal_output.png)
