@@ -1,0 +1,8 @@
+# Never commit patient reports or extracted results
+*.pdf
+*.csv
+*.xlsx
+*.xls
+.DS_Store
+__pycache__/
+.venv/
